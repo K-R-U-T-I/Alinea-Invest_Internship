@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Alinea Invest</title>
+  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.ico"/>
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/css/icofont.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/lightcase.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+  <link rel="stylesheet" href="assets/css/nice-select.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+    <!-- signin-area start -->
+    <div class="modal fade" id="signInModal" tabindex="-1" role="dialog"  aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content bdr-radius">
+          <div class="signin-wrapper">
+            <div class="signin-wrapper-header text-center">
+              <div class="logo"><img src="assets/images/elements/logo-icon.png" alt="image"></div>
+              <h3 class="title">Login with</h3>
+              <p>Welcome back, please sign in below</p>
+            </div>
+            <form class="signin-form">
+              <div class="form-group">
+                <label for="signinEmail">Email*</label>
+                <input type="email" class="form-control" id="signinEmail" placeholder="Enter your Email">
+              </div>
+              <div class="form-group">
+                <label for="signinPass">Password*</label>
+                <input type="password" class="form-control" id="signinPass" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <div class="custom-checkbox">
+                  <input type="checkbox" name="id-1" id="id-1" checked>
+                  <label for="id-1">Remember Password</label>
+                  <span class="checkbox"></span>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary btn-hover">Log In</button>
+            </form>
+            <div class="signin-wrapper-footer">
+              <p class="bottom-text">Don’t have an account? <a href="#0" data-toggle="modal" data-target="#signUpModal" data-dismiss="modal" aria-label="Close">Sign Up Now</a></p>
+              <div class="divider"><span>or</span></div>
+              <ul class="social-list">
+                <li><a href="#0"><i class="fa fa-facebook-f"></i></a></li>
+                <li><a href="#0"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#0"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- signin-area end -->
+    
+    <!-- signup-area start -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog"  aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content bdr-radius">
+          <div class="signin-wrapper">
+            <div class="signin-wrapper-header text-center">
+              <div class="logo"><img src="assets/images/elements/logo-icon.png" alt="image"></div>
+              <h3 class="title">Login with</h3>
+              <p>Welcome back, please sign in below</p>
+            </div>
+            <form class="signin-form">
+              <div class="form-group">
+                <label for="signinEmail">Email*</label>
+                <input type="email" class="form-control" id="signupEmail" placeholder="Enter your Email">
+              </div>
+              <div class="form-group">
+                <label for="signinPass">Password*</label>
+                <input type="password" class="form-control" id="signupPass" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <label for="signinPass">Confirm Password*</label>
+                <input type="password" class="form-control" id="signupRePass" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <div class="custom-checkbox">
+                  <input type="checkbox" name="id-2" id="id-2" checked>
+                  <label for="id-2">I do not want to be kept up to date about relevant investment opportunities, features, and events</label>
+                  <span class="checkbox"></span>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary btn-hover">Log In</button>
+            </form>
+            <div class="signin-wrapper-footer">
+              <p class="bottom-text">Already have an account?<a href="#0" data-toggle="modal" data-target="#signInModal" data-dismiss="modal" aria-label="Close">Login</a></p>
+              <div class="divider"><span>or</span></div>
+              <ul class="social-list">
+                <li><a href="#0"><i class="fa fa-facebook-f"></i></a></li>
+                <li><a href="#0"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#0"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- signup-area end -->
+
+  <!--  header-section start  -->
+  <header class="header-section transparent--header header--fixed">
+    <div class="header-top">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-6 col-md-6">
+            <div class="header-top-left d-flex">
+              <div class="support-part">
+                  <a href="tel:+123456789"><i class="fa fa-headphones"></i>Support</a>
+              </div>
+              <div class="email-part">
+                  <a href="mailto:info@alinea.invest.com"><i class="fa fa-envelope"></i>info@alinea.invest.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+              <div class="header-top-right d-flex align-items-center justify-content-end">
+                  <div class="language-part">
+                    <i class="fa fa-globe"></i>
+                    <select>
+                        <option>Eng</option>
+                        <option>Ban</option>
+                        <option>Rus</option>
+                        <option>Arb</option>
+                    </select>
+                  </div>
+                  <div class="header-cart-count">
+                    <a href="checkout.html">
+                      <i class="fa fa-shopping-cart"></i>
+                      <span>My cart (0)</span>
+                    </a>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom">
+      <div class="container">
+        <nav class="navbar navbar-expand-xl">
+          <a class="site-logo site-title" href="home.html" style="width: 19%;"><img src="assets/images/alinea-logo.png" alt="site-logo" style="width: 20%;"><h8 style="font-size: 70%; color: white; margin: 0 0 0 5%;">Alinea-Invest</h8></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="menu-toggle"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav main-menu ml-auto">
+              <li class="active menu_has_children"><a href="home.html">Home</a>
+              </li>
+              <li><a href="about.html">about</a></li>
+              <li class="menu_has_children"><a href="#0">Investment</a>
+              </li>
+              <li class="menu_has_children"><a href="#0">How Work</a>
+              </li>
+              <li class="menu_has_children"><a href="#0">blog</a>
+              </li>
+              <li><a href="#">contact us</a></li>
+            </ul>
+            <div class="header-join-part">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signInModal">join us</button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div><!-- header-bottom end -->
+  </header>
+  <!--  header-section end  -->
+
+  <!-- banner-section start -->
+  <section class="banner-section banner--four">
+    <div class="banner-shape bg_img" data-background="assets/images/elements/home4-banner-shape.png">
+    </div>
+    <div class="banner-elements-image anim-bounce"><img src="assets/images/elements/home4-banner-el.png" alt="image"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="banner-content-area">
+            <div class="banner-content">
+              <span class="banner-sub-title">Not Your Typical Investing App</span>
+              <h2 class="banner-title text-white" >Learn with Intention</h2>
+              <p class="text-white">Alinea makes responsible investing fun, easy, and social.</p>
+            </div>
+            <div class="banner-btn-area">
+              <a href="#" class="btn btn-info btn-round">get started now!</a>
+              <a href="#" class="video-btn video-btn--info">
+                <span class="icon"><i class="icofont-ui-play"></i></span>
+              </a>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- banner-section end -->
+
+  <!-- counter-section start -->
+  <div class="counter-sections pt-lg-0 pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="counter-area style--two d-flex justify-content-between">
+            <div class="counter-item">
+              <div class="counter-icon">
+                <img src="assets/images/icons/counter/1.svg" alt="icon">
+              </div>
+              <div class="counter-content">
+                <span>$</span>
+                <span class="counter">961</span>
+                <span>k</span>
+                <span class="caption">Invested in Pitches</span>
+              </div>
+            </div><!-- counter-item end -->
+            <div class="counter-item">
+              <div class="counter-icon">
+                <img src="assets/images/icons/counter/2.svg" alt="icon">
+              </div>
+              <div class="counter-content">
+                <span>$</span>
+                <span class="counter">634</span>
+                <span>k</span>
+                <span class="caption">Registered Members</span>
+              </div>
+            </div><!-- counter-item end -->
+            <div class="counter-item">
+              <div class="counter-icon">
+                <img src="assets/images/icons/counter/3.svg" alt="icon">
+              </div>
+              <div class="counter-content">
+                <span>$</span>
+                <span class="counter">14</span>
+                <span>k</span>
+                <span class="caption">Average Investment</span>
+              </div>
+            </div><!-- counter-item end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- counter-section end -->
+
+<!-- choose-us-section start -->
+  <section class="choose-us-section pt-120 pb-120">
+    <div class="round-shape-el"><img src="assets/images/elements/choose-us-circle-shape.png" alt="image"></div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-header text-center">
+            <span class="section-subtitle">We get it.🤗</span>
+            <h2 class="section-title">Why Should Choose Us</h2>
+            <p>Investing is overwhelming, but it doesn’t have to be.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-4">
+          <div class="choose-us-thumb d-xl-block d-none anim-bounce">
+            <img src="assets/images/elements/choose-us-img.png" alt="image">
+          </div>
+        </div>
+        <div class="col-xl-8">
+          <div class="choose-us-slider__three owl-carousel">
+            <div class="choose-item text-center">
+              <div class="choose-thumb">
+                <img src="assets/images/choose-us/1.png" alt="image">
+              </div>
+              <div class="choose-content">
+                <h3 class="title">Responsible Investing</h3>
+                <p><br>Make your money moves matter!<br> Express your values and interests through your investments.</p>
+                <!-- <a href="#0" class="read-more-btn">read more<i class="fa fa-long-arrow-right"></i></a> -->
+              </div>
+            </div><!-- choose-item end -->
+            <div class="choose-item text-center">
+              <div class="choose-thumb">
+                <img src="assets/images/choose-us/2.png" alt="image">
+              </div>
+              <div class="choose-content">
+                <h3 class="title">Learning</h3>
+                <p>We eliminate all the unnecessary financial jargon. Learn as you go with our interactive mini capsules and before you know it, you’ll be a confident investor.</p>
+                <!-- <a href="#0" class="read-more-btn">read more<i class="fa fa-long-arrow-right"></i></a> -->
+              </div>
+            </div><!-- choose-item end -->
+            <div class="choose-item text-center">
+              <div class="choose-thumb">
+                <img src="assets/images/choose-us/3.png" alt="image">
+              </div>
+              <div class="choose-content">
+                <h3 class="title">Community</h3>
+                <p>We all need someone to lean on and investing is no different. As part of our community, you get the support to embark and continue on your journey.</p>
+                <a href="#0" class="read-more-btn">read more<i class="fa fa-long-arrow-right"></i></a>
+              </div>
+            </div><!-- choose-item end -->
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- choose-us-section end -->
+
+  <!-- features-section start -->
+  <section class="features-section style--two pt-120 pb-120">
+    <div class="map-ele"><img src="assets/images/elements/map-ele.png" alt="image"></div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-header text-center">
+            <span class="section-subtitle">Our Amazing Features</span>
+            <h2 class="section-title">Investing For Everyone</h2>
+            <p>We are worldwide investment company who are committed to the principle of revenue maximization and reduction of the financial risks at investing.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2 col-sm-6">
+          <div class="feature-item item--style2 text-center">
+            <div class="icon">
+              <img src="assets/images/icons/features/1.svg" alt="image">
+            </div>
+            <div class="content">
+              <h3 class="title">Simple</h3>
+              <a href="#0" class="read-more-btn">read more<i class="fa fa-long-arrow-right"></i></a>
+            </div>
+          </div>
+        </div><!-- feature-item end -->
+        <div class="col-lg-2 col-sm-6">
+          <div class="feature-item item--style2 text-center">
+            <div class="icon">
+              <img src="assets/images/icons/features/2.svg" alt="image">
+            </div>
+            <div class="content">
+              <h3 class="title">transparent</h3>
+              <a href="#0" class="read-more-btn">read more<i class="fa fa-long-arrow-right"></i></a>
+            </div>
+          </div>
+        </div><!-- feature-item end -->
+        <div class="col-lg-2 offset-lg-1 col-sm-6">
+          <div class="feature-item item--style2 text-center">
+            <div class="icon">
+              <img src="assets/images/icons/features/3.svg" alt="image">
+            </div>
+            <div class="content">
+              <h3 class="title">security</h3>
+              <a href="#0" class="read-more-btn">read more<i class="fa fa-long-arrow-right"></i></a>
+            </div>
+          </div>
+        </div><!-- feature-item end -->
+        <div class="col-lg-2 offset-lg-1 col-sm-6">
+          <div class="feature-item item--style2 text-center">
+            <div class="icon">
+              <img src="assets/images/icons/features/5.svg" alt="image">
+            </div>
+            <div class="content">
+              <h3 class="title">compliant</h3>
+              <a href="#0" class="read-more-btn">read more<i class="fa fa-long-arrow-right"></i></a>
+            </div>
+          </div>
+        </div><!-- feature-item end -->
+        <div class="col-lg-2 col-sm-6">
+          <div class="feature-item item--style2 text-center">
+            <div class="icon">
+              <img src="assets/images/icons/features/4.svg" alt="image">
+            </div>
+            <div class="content">
+              <h3 class="title">efficient</h3>
+              <a href="#0" class="read-more-btn">read more<i class="fa fa-long-arrow-right"></i></a>
+            </div>
+          </div>
+        </div><!-- feature-item end -->
+      </div>
+    </div>
+  </section>
+  <!-- features-section end -->
+
+  <!-- latest-transaction-section start -->
+  <section class="latest-transaction-section pt-120 pb-120">
+    <div class="bg_img" data-background="assets/images/transaction-bg.jpg"></div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-header text-center text-white">
+            <span class="section-subtitle">Latest Transaction</span>
+            <h2 class="section-title">Withdrawals</h2>
+            <p>Our goal is to simplify investing so that anyone can be an investor.Withthis in mind, we  hand-pick the investments we offer on our platform.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="nav nav-tabs justify-content-center tab-nav" id="transactionTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="daily-tab" data-toggle="tab" href="#daily" role="tab" aria-controls="daily" aria-selected="true">Daily</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="monthly-tab" data-toggle="tab" href="#monthly" role="tab" aria-controls="monthly" aria-selected="false">Monthly</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="transactionTabContent">
+            <div class="tab-pane fade show active" id="daily" role="tabpanel" aria-labelledby="daily-tab">
+              <div class="withdraw-table-area">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>name</th>
+                      <th>price</th>
+                      <th>Daily Dividend</th>
+                      <th>AMOUNTs</th>
+                      <th>Deposit by</th>
+                      <th>Currency</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td data-head="name">
+                        <div class="person-details">
+                          <div class="thumb"><img src="assets/images/withdraw/t-1.png" alt="image"></div>
+                          <div class="content">
+                            <span class="name">Nick Jonas</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td data-head="price">
+                        <span class="price">$10.50</span>
+                      </td>
+                      <td data-head="daily dividend">
+                        <span class="daily-dividend">$10.50</span>
+                      </td>
+                      <td data-head="amounts">
+                        <span class="amount">$0.9</span>
+                      </td>
+                      <td data-head="Deposit by">
+                        <span class="days">21 days</span>
+                      </td>
+                      <td data-head="Currency">
+                        <img src="assets/images/icons/withdraw/bitcoin.png" alt="icon">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-head="name">
+                        <div class="person-details">
+                          <div class="thumb"><img src="assets/images/withdraw/t-2.png" alt="image"></div>
+                          <div class="content">
+                            <span class="name">Millie Brown </span>
+                          </div>
+                        </div>
+                      </td>
+                      <td data-head="price">
+                        <span class="price">$10.50</span>
+                      </td>
+                      <td data-head="daily dividend">
+                        <span class="daily-dividend">$10.50</span>
+                      </td>
+                      <td data-head="amounts">
+                        <span class="amount">$0.9</span>
+                      </td>
+                      <td data-head="Deposit by">
+                        <span class="days">21 days</span>
+                      </td>
+                      <td data-head="Currency">
+                        <img src="assets/images/icons/withdraw/fire.png" alt="icon">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-head="name">
+                        <div class="person-details">
+                          <div class="thumb"><img src="assets/images/withdraw/t-3.png" alt="image"></div>
+                          <div class="content">
+                            <span class="name">Ian Somerhelder </span>
+                          </div>
+                        </div>
+                      </td>
+                      <td data-head="price">
+                        <span class="price">$10.50</span>
+                      </td>
+                      <td data-head="daily dividend">
+                        <span class="daily-dividend">$10.50</span>
+                      </td>
+                      <td data-head="amounts">
+                        <span class="amount">$0.9</span>
+                      </td>
+                      <td data-head="Deposit by">
+                        <span class="days">21 days</span>
+                      </td>
+                      <td data-head="Currency">
+                        <img src="assets/images/icons/withdraw/bitcoin.png" alt="icon">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-head="name">
+                        <div class="person-details">
+                          <div class="thumb"><img src="assets/images/withdraw/t-4.png" alt="image"></div>
+                          <div class="content">
+                            <span class="name">Elena Gilbert</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td data-head="price">
+                        <span class="price">$10.50</span>
+                      </td>
+                      <td data-head="daily dividend">
+                        <span class="daily-dividend">$10.50</span>
+                      </td>
+                      <td data-head="amounts">
+                        <span class="amount">$0.9</span>
+                      </td>
+                      <td data-head="Deposit by">
+                        <span class="days">21 days</span>
+                      </td>
+                      <td data-head="Currency">
+                        <img src="assets/images/icons/withdraw/fan.png" alt="icon">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-head="name">
+                        <div class="person-details">
+                          <div class="thumb"><img src="assets/images/withdraw/t-5.png" alt="image"></div>
+                          <div class="content">
+                            <span class="name">Stefan Hawkin</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td data-head="price">
+                        <span class="price">$10.50</span>
+                      </td>
+                      <td data-head="daily dividend">
+                        <span class="daily-dividend">$10.50</span>
+                      </td>
+                      <td data-head="amounts">
+                        <span class="amount">$0.9</span>
+                      </td>
+                      <td data-head="Deposit by">
+                        <span class="days">21 days</span>
+                      </td>
+                      <td data-head="Currency">
+                        <img src="assets/images/icons/withdraw/dollar.png" alt="icon">
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            
+            <div class="tab-pane fade" id="monthly" role="tabpanel" aria-labelledby="monthly-tab">
+              <div class="withdraw-table-area">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>name</th>
+                      <th>price</th>
+                      <th>Daily Dividend</th>
+                      <th>AMOUNTs</th>
+                      <th>Deposit by</th>
+                      <th>Currency</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td data-head="name">
+                        <div class="person-details">
+                          <div class="thumb"><img src="assets/images/withdraw/t-1.png" alt="image"></div>
+                          <div class="content">
+                            <span class="name">Nick Jonas</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td data-head="price">
+                        <span class="price">$10.50</span>
+                      </td>
+                      <td data-head="daily dividend">
+                        <span class="daily-dividend">$10.50</span>
+                      </td>
+                      <td data-head="amounts">
+                        <span class="amount">$0.9</span>
+                      </td>
+                      <td data-head="Deposit by">
+                        <span class="days">21 days</span>
+                      </td>
+                      <td data-head="Currency">
+                        <img src="assets/images/icons/withdraw/bitcoin.png" alt="icon">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-head="name">
+                        <div class="person-details">
+                          <div class="thumb"><img src="assets/images/withdraw/t-2.png" alt="image"></div>
+                          <div class="content">
+                            <span class="name">Rehana abc</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td data-head="price">
+                        <span class="price">$10.50</span>
+                      </td>
+                      <td data-head="daily dividend">
+                        <span class="daily-dividend">$10.50</span>
+                      </td>
+                      <td data-head="amounts">
+                        <span class="amount">$0.9</span>
+                      </td>
+                      <td data-head="Deposit by">
+                        <span class="days">21 days</span>
+                      </td>
+                      <td data-head="Currency">
+                        <img src="assets/images/icons/withdraw/fire.png" alt="icon">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-head="name">
+                        <div class="person-details">
+                          <div class="thumb"><img src="assets/images/withdraw/t-3.png" alt="image"></div>
+                          <div class="content">
+                            <span class="name">Kim McDonald</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td data-head="price">
+                        <span class="price">$10.50</span>
+                      </td>
+                      <td data-head="daily dividend">
+                        <span class="daily-dividend">$10.50</span>
+                      </td>
+                      <td data-head="amounts">
+                        <span class="amount">$0.9</span>
+                      </td>
+                      <td data-head="Deposit by">
+                        <span class="days">21 days</span>
+                      </td>
+                      <td data-head="Currency">
+                        <img src="assets/images/icons/withdraw/bitcoin.png" alt="icon">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-head="name">
+                        <div class="person-details">
+                          <div class="thumb"><img src="assets/images/withdraw/t-4.png" alt="image"></div>
+                          <div class="content">
+                            <span class="name">Sherlyn yoho </span>
+                          </div>
+                        </div>
+                      </td>
+                      <td data-head="price">
+                        <span class="price">$10.50</span>
+                      </td>
+                      <td data-head="daily dividend">
+                        <span class="daily-dividend">$10.50</span>
+                      </td>
+                      <td data-head="amounts">
+                        <span class="amount">$0.9</span>
+                      </td>
+                      <td data-head="Deposit by">
+                        <span class="days">21 days</span>
+                      </td>
+                      <td data-head="Currency">
+                        <img src="assets/images/icons/withdraw/fan.png" alt="icon">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-head="name">
+                        <div class="person-details">
+                          <div class="thumb"><img src="assets/images/withdraw/t-5.png" alt="image"></div>
+                          <div class="content">
+                            <span class="name">Damon Salvator</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td data-head="price">
+                        <span class="price">$10.50</span>
+                      </td>
+                      <td data-head="daily dividend">
+                        <span class="daily-dividend">$10.50</span>
+                      </td>
+                      <td data-head="amounts">
+                        <span class="amount">$0.9</span>
+                      </td>
+                      <td data-head="Deposit by">
+                        <span class="days">21 days</span>
+                      </td>
+                      <td data-head="Currency">
+                        <img src="assets/images/icons/withdraw/dollar.png" alt="icon">
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          
+          <div class="btn-area text-center">
+            <a href="#0" class="btn btn-primary btn-hover text-small">browse more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- latest-transaction-section end -->
+
+  <!-- affiliate-features-section start -->
+  <section class="affiliate-features-section style--tow pt-120 pb-120">
+    <div class="shape-el"><img src="assets/images/elements/affiliate-round-shape.png" alt="image"></div>
+    <div class="container"> <h3><center> What does Alinea offer?🤔</center></h3>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="row mb-none-30">
+            <div class="col-md-6">
+              <div class="affiliate-features-item item--style2 text-center mb-30">
+                <div class="icon"><img src="assets/images/icons/affiliate-features/1.svg" alt="image"></div>
+                <span class="subtitle">Pre-packaged portfolios for you.💁🏻‍♀️</span>
+                <h3 class="title">Custom <br> Portfolios👩‍👩‍👧‍👦</h3>
+              </div>
+            </div><!-- affiliate-features-item end -->
+            <div class="col-md-6">
+              <div class="affiliate-features-item item--style2 text-center mb-30">
+                <div class="icon"><img src="assets/images/icons/affiliate-features/2.svg" alt="image"></div>
+                <span class="subtitle">Invest in any share with as little as $1.✔️</span>
+                <h3 class="title">Fractional <br> Shares➿</h3>
+              </div>
+            </div><!-- affiliate-features-item end -->
+            <div class="col-md-6">
+              <div class="affiliate-features-item item--style2 text-center mb-30">
+                <div class="icon"><img src="assets/images/icons/affiliate-features/3.svg" alt="image"></div>
+                <span class="subtitle">We have quick answers to all your investing questions.🌝</span>
+                <h3 class="title">Speedy <br> Support🏃🏻‍♀️</h3>
+              </div>
+            </div><!-- affiliate-features-item end -->
+            <div class="col-md-6">
+              <div class="affiliate-features-item item--style2 text-center mb-30">
+                <div class="icon"><img src="assets/images/icons/affiliate-features/4.svg" alt="image"></div>
+                <span class="subtitle">Joining is easy. Connect with Intention🧞‍♀️</span>
+                <h3 class="title">Free & <br> Easy🥳</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row mb-none-30">
+            <div class="col-md-6">
+              <div class="affiliate-features-item item--style2 text-center mb-30">
+                <div class="icon"><img src="assets/images/icons/affiliate-features/1.svg" alt="image"></div>
+                <span class="subtitle">Our community is here to support you every step of the way.🚀
+                </span>
+                <h3 class="title">Kickass <br> Community👨‍👨‍👧‍👦</h3>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="affiliate-features-item item--style2 text-center mb-30">
+                <div class="icon"><img src="assets/images/icons/affiliate-features/2.svg" alt="image"></div>
+                <span class="subtitle">We give you the right information to make an impact.😇</span>
+                <h3 class="title">Invest with <br> Intention🎯</h3>
+              </div>
+            </div><!-- affiliate-features-item end -->
+            <div class="col-md-6">
+              <div class="affiliate-features-item item--style2 text-center mb-30">
+                <div class="icon"><img src="assets/images/icons/affiliate-features/3.svg" alt="image"></div>
+                <span class="subtitle">We all need someone to lean on and investing is no different.👭🏻
+                </span>
+                <h3 class="title">Community</h3>
+              </div>
+            </div><!-- affiliate-features-item end -->
+            <div class="col-md-6">
+              <div class="affiliate-features-item item--style2 text-center mb-30">
+                <div class="icon"><img src="assets/images/icons/affiliate-features/4.svg" alt="image"></div>
+                <span class="subtitle">We make learning fun and easy.😄</span>
+                <h3 class="title">Learn & <br> Grow💯</h3>
+              </div>
+            </div><!-- affiliate-features-item end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- affiliate-features-section end -->
+
+  <!-- testimonial-section start -->
+  <section class="testimonial-section pb-120">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="section-header text-center">
+            <span class="section-subtitle">Testimonials</span>
+            <h2 class="section-title">Over 7,000 Happy Customers</h2>
+            <p>We have many happy investors invest with us .Some impresions from our Customers!  PLease read some of the lovely things our Customers say about us.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="testimonial-wrapper d-lg-block d-none style--two">
+            <div class="map-img"><img src="assets/images/elements/testimonial-map.png" alt="image"></div>
+            <div class="testimonial-single">
+              <div class="thumb">
+                <img src="assets/images/testimonial/1.png" alt="image">
+              </div>
+              <div class="details text-center">
+                <p>Great service! I have been worried about investing. But when I came here. I don't have to worry anymore</p>
+                <h4 class="name">Joy Kelley</h4>
+                <span class="client-details">United kingdom, 28th April,2019</span>
+                <span class="arrow-wrap"><span class="arrow"></span></span>
+              </div>
+            </div><!-- testimonial-single end -->
+            <div class="testimonial-single">
+              <div class="thumb">
+                <img src="assets/images/testimonial/2.png" alt="image">
+              </div>
+              <div class="details text-center">
+                <p>Great service! I have been worried about investing. But when I came here. I don't have to worry anymore</p>
+                <h4 class="name">Joy Kelley</h4>
+                <span class="client-details">United kingdom, 28th April,2019</span>
+                <span class="arrow-wrap"><span class="arrow"></span></span>
+              </div>
+            </div><!-- testimonial-single end -->
+            <div class="testimonial-single">
+              <div class="thumb">
+                <img src="assets/images/testimonial/3.png" alt="image">
+              </div>
+              <div class="details text-center">
+                <p>Great service! I have been worried about investing. But when I came here. I don't have to worry anymore</p>
+                <h4 class="name">Joy Kelley</h4>
+                <span class="client-details">United kingdom, 28th April,2019</span>
+                <span class="arrow-wrap"><span class="arrow"></span></span>
+              </div>
+            </div><!-- testimonial-single end -->
+            <div class="testimonial-single">
+              <div class="thumb">
+                <img src="assets/images/testimonial/4.png" alt="image">
+              </div>
+              <div class="details text-center">
+                <p>Great service! I have been worried about investing. But when I came here. I don't have to worry anymore</p>
+                <h4 class="name">Joy Kelley</h4>
+                <span class="client-details">United kingdom, 28th April,2019</span>
+                <span class="arrow-wrap"><span class="arrow"></span></span>
+              </div>
+            </div><!-- testimonial-single end -->
+            <div class="testimonial-single">
+              <div class="thumb">
+                <img src="assets/images/testimonial/5.png" alt="image">
+              </div>
+              <div class="details text-center">
+                <p>Great service! I have been worried about investing. But when I came here. I don't have to worry anymore</p>
+                <h4 class="name">Joy Kelley</h4>
+                <span class="client-details">United kingdom, 28th April,2019</span>
+                <span class="arrow-wrap"><span class="arrow"></span></span>
+              </div>
+            </div><!-- testimonial-single end -->
+            <div class="testimonial-single">
+              <div class="thumb">
+                <img src="assets/images/testimonial/6.png" alt="image">
+              </div>
+              <div class="details text-center">
+                <p>Great service! I have been worried about investing. But when I came here. I don't have to worry anymore</p>
+                <h4 class="name">Joy Kelley</h4>
+                <span class="client-details">United kingdom, 28th April,2019</span>
+                <span class="arrow-wrap"><span class="arrow"></span></span>
+              </div>
+            </div><!-- testimonial-single end -->
+          </div>
+          <div class="testmonial-slider-wrapper d-lg-none mb-4">
+            <div class="testimonial-slider owl-carousel">
+              <div class="testimonial-single-two">
+                <div class="thumb"><img src="assets/images/testimonial/2.png" alt="image"></div>
+                <h4 class="name">Kevin Ohashi</h4>
+                <span class="designation">Award winning blogger</span>
+                <p>behoof has one of the friendliest affiliate programs.They’re definitely one of the bestinvestment website in the world. I’ve been using them for a long time and have never had any problems</p>
+              </div><!-- testimonial-single-two end -->
+              <div class="testimonial-single-two">
+                <div class="thumb"><img src="assets/images/testimonial/3.png" alt="image"></div>
+                <h4 class="name">Kevin Ohashi</h4>
+                <span class="designation">Award winning blogger</span>
+                <p>behoof has one of the friendliest affiliate programs.They’re definitely one of the bestinvestment website in the world. I’ve been using them for a long time and have never had any problems</p>
+              </div><!-- testimonial-single-two end -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- testimonial-section end -->
+
+  <!-- investors-section start -->
+  <section class="investors-section pt-120 pb-120">
+    <div class="bg-shape bg_img" data-background="assets/images/investor-bg.png"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-8">
+          <div class="section-header text-white wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.5s">
+            <span class="section-subtitle">Take a look at our</span>
+            <h2 class="section-title">Top 10 Investors</h2>
+            <p>A look at the top ten investors of all time and the strategies they used to make their money.</p>
+          </div>
+        </div>
+      </div>
+      <div class="investor-slider owl-carousel">
+        <div class="investor-item text-center">
+          <div class="thumb">
+            <img src="assets/images/investors/1.png" alt="image">
+            <a href="#0" class="icon"><i class="fa fa-linkedin"></i></a>
+          </div>
+          <div class="content">
+            <h4 class="name"><a href="#0">Sean Obrien</a></h4>
+            <span class="amount">$50,000.00</span>
+            <p>Pain by <img src="assets/images/icons/withdraw/bitcoin.png" alt="icon"></p>
+          </div>
+        </div><!-- investor-item end -->
+        <div class="investor-item text-center">
+          <div class="thumb">
+            <img src="assets/images/investors/2.png" alt="image">
+            <a href="#0" class="icon"><i class="fa fa-linkedin"></i></a>
+          </div>
+          <div class="content">
+            <h4 class="name"><a href="#0">Naomi White</a></h4>
+            <span class="amount">$43,500.00</span>
+            <p>Pain by <img src="assets/images/icons/withdraw/bitcoin.png" alt="icon"></p>
+          </div>
+        </div><!-- investor-item end -->
+        <div class="investor-item text-center">
+          <div class="thumb">
+            <img src="assets/images/investors/3.png" alt="image">
+            <a href="#0" class="icon"><i class="fa fa-linkedin"></i></a>
+          </div>
+          <div class="content">
+            <h4 class="name"><a href="#0">Tom Barker</a></h4>
+            <span class="amount">$42,000.00</span>
+            <p>Pain by <img src="assets/images/icons/withdraw/bitcoin.png" alt="icon"></p>
+          </div>
+        </div><!-- investor-item end -->
+        <div class="investor-item text-center">
+          <div class="thumb">
+            <img src="assets/images/investors/1.png" alt="image">
+            <a href="#0" class="icon"><i class="fa fa-linkedin"></i></a>
+          </div>
+          <div class="content">
+            <h4 class="name"><a href="#0">Sean Obrien</a></h4>
+            <span class="amount">$50,000.00</span>
+            <p>Pain by <img src="assets/images/icons/withdraw/bitcoin.png" alt="icon"></p>
+          </div>
+        </div><!-- investor-item end -->
+      </div>
+    </div>
+  </section>
+  <!-- investors-section end -->
+
+  <!-- calculate-profit-section start -->
+  <section class="calculate-profit-section pt-120 pb-120">
+    <div class="bg_img overlay" data-background="assets/images/invest-plan2.jpg"></div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-header text-center text-white">
+            <span class="section-subtitle">BECOME A PART OF OUR KICKASS COMMUNITY</span>
+            <h2 class="section-title">You Can Earn</h2>
+            <p>We can’t do this alone, so we need each other, especially you. Join our community and get started on your investing journey!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- calculate-profit-section end -->
+
+  <!-- footer-section start -->
+  <footer class="footer-section">
+    <div class="footer-top bg_img" data-background="assets/images/footer-bg-3.png">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <div class="section-header text-white text-center">
+              <span class="section-subtitle">Subscribe to Alinea Invest</span>
+              <!-- <h2 class="section-title">To Get Exclusive Benefits</h2> -->
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="subscribe-wrapper style--two">
+              <form class="subscribe-form">
+                <input type="text" name="subs_name" id="subs_name" placeholder="Your Email Address">
+                <button type="submit" class="subs-btn">subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="footer-widget">
+              <h3 class="widget-title">About Alinea Invest</h3>
+              <ul class="footer-menu-list">
+                <li><a href="#0">About us</a></li>
+                <li><a href="#0">Contact Us</a></li>
+                <li><a href="#0">Latest Blog</a></li>
+                <li><a href="#0">Authenticity Guarantee</a></li>
+                <li><a href="#0">Customer Reviews</a></li>
+                <li><a href="#0">Privacy Policy</a></li>
+                <li><a href="#0">Business License</a></li>
+              </ul>
+            </div>
+          </div><!-- footer-widget end -->
+          <div class="col-md-3">
+            <div class="footer-widget">
+              <h3 class="widget-title">My Account</h3>
+              <ul class="footer-menu-list">
+                <li><a href="#0">Manage Your Account</a></li>
+                <li><a href="#0">How to Deposit</a></li>
+                <li><a href="#0">How to Withdraw</a></li>
+                <li><a href="#0">Account Varification</a></li>
+                <li><a href="#0">Safety & Security</a></li>
+                <li><a href="#0">Investments</a></li>
+                <li><a href="#0">Membership Level</a></li>
+              </ul>
+            </div>
+          </div><!-- footer-widget end -->
+          <div class="col-md-3">
+            <div class="footer-widget">
+              <h3 class="widget-title">legal info</h3>
+              <ul class="footer-menu-list">
+                <li><a href="#0">Risk Warnings</a></li>
+                <li><a href="#0">Privacy Notice</a></li>
+                <li><a href="#0">Security</a></li>
+                <li><a href="#0">Terms of Service</a></li>
+                <li><a href="#0">Become Affiliate</a></li>
+                <li><a href="#0">Complaints Policy</a></li>
+              </ul>
+            </div>
+          </div><!-- footer-widget end -->
+          <div class="col-md-3">
+            <div class="footer-widget">
+              <h4 class="widget-title">Alinea Invest makes responsible investing fun, easy, and social with learning features.</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="btn-area text-center">
+              <a href="#0" class="wow zoomIn" data-wow-duration="0.3s" data-wow-delay="0.5s"><img src="assets/images/buttons/google.png" alt="button"></a>
+              <a href="#0" class="wow zoomIn" data-wow-duration="0.7s" data-wow-delay="0.5s"><img src="assets/images/buttons/apple.png" alt="button"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <p class="copy-right-text">Copyright © 2020.All Rights Reserved By <a href="home.html">Alinea-Invest</a></p>
+          </div>
+          <div class="col-lg-6">
+            <div class="card-list text-right">
+              <a href="#0"><img src="assets/images/icons/card-options/americanexpress.png" alt="image"></a>
+              <a href="#0"><img src="assets/images/icons/card-options/maestro.png" alt="image"></a>
+              <a href="#0"><img src="assets/images/icons/card-options/visa.png" alt="image"></a>
+              <a href="#0"><img src="assets/images/icons/card-options/paypal.png" alt="image"></a>
+              <a href="#0"><img src="assets/images/icons/card-options/mastercard.png" alt="image"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer-section end -->
+
+  <!-- scroll-to-top start -->
+  <div class="scroll-to-top">
+    <span class="scroll-icon">
+      <i class="fa fa-rocket"></i>
+    </span>
+  </div>
+  <!-- scroll-to-top end --> 
+
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.nice-select.js"></script>
+  <script src="assets/js/lightcase.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/jquery-ui.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/jquery.waypoints.min.js"></script>
+  <script src="assets/js/jquery.countup.min.js"></script>
+  <script src="assets/js/jquery.paroller.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
