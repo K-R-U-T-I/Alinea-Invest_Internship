@@ -2,4 +2,4 @@
 
 ## Screenshot of the website
 
-![](1.png)
+![](1.PNG)
