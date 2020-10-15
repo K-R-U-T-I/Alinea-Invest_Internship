@@ -4,4 +4,4 @@
 
 ![](1.PNG)
 
-<img src="2.PNG" width="800px" height="auto">
+<img src="2.PNG" width="auto" height="auto">
